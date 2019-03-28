@@ -1,5 +1,4 @@
 
-var equilateral=[];
 var userInput1= parseInt(prompt("Please enter the 1st length of your triangle."));
 var userInput2= parseInt(prompt("Please enter the 2nd length of your triangle."));
 var userInput3= parseInt(prompt("Please enter the 3rd length of your triangle."));
