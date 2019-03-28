@@ -15,3 +15,5 @@ var userInput3= parseInt(prompt("Please enter the 3rd length of your triangle.")
 if((userInput1 === userInput2 && userInput3 !== userInput1 && userInput3!==userInput2)||(userInput2 === userInput3 && userInput1 !== userInput2 && userInput1!==userInput3)||(userInput1 === userInput3 && userInput2 !== userInput1 && userInput2!==userInput3)){alert("Your triangle is an isoscecles triangle");
 }
 else{alert("Your triangle is NOT an isosceles triangle");}
+
+
