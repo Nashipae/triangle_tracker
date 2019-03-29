@@ -7,13 +7,13 @@
 <body>
   <script src="js/index.js"></script>
   <div class="grid">
-    <div class ="logo"><img src="images/triangle_logo.jpg" alt="logo" width="150" height="150"><img src="images/triangles.jpg" alt="logo" width="150" height="150">
+    <div class="logo"><img src="images/triangle_logo.jpg" alt="logo" height="150" width="150">
     </div>
-    <div class="span-col-3">
+    <div class="span-col-5">
       <h1>Triangle Tracker</h1>
     </div>     
       <!-- <h2>How it works</h2> -->
-    <div class="span-col-4 span-row-2">Welcome to the Triangle tracker! The triangle tracker is a tool that enables you to enter the lengths of your triangle sides and advices you whether the triangle:
+    <div class="span-col-6">Welcome to the Triangle tracker! The triangle tracker is a tool that enables you to enter the lengths of your triangle sides and advices you whether the triangle:
       <ul>
         <li>is a triangle in the first place.</li>
         <li>is an equilateral, scalene or isosceles triangle.</li>
@@ -29,7 +29,8 @@
       </ul>
       <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. </p>
     </div>
-    <div class = "span-col-2 span-row-3">
+    <div class = "span-col-3 span-row-3">
+      <h2>Input</h2>
       <form name="triangle_inputs" method="get">
         <fieldset>
           <legend>Triangle information:</legend>
@@ -39,16 +40,18 @@
           <input type="text" name="length2"><br>
           Length 3 :<br>
           <input type="text" name="length3"><br>
-          <div class="submit">
+          <p><div class="submit"></p>
           <input type="button" value="Submit" onclick="triangle()">
           </div>
         </fieldset>
       </form>    
     </div>
-    <div class="span-col-2 span-row-3">
+    <div class=class="span-col-3 span-row-3">
       <h2>Output</h2>
       <h3 id="form_output"></h3>
     </div>
+    <div class="span-col-6"></div>
+    <div class="footer"></div>
   </div>
 </body>
 </html>

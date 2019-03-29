@@ -1,25 +1,57 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  background image: url()
 }
+.span-col-5{grid-column: span 5 / auto;}
+
+.span-col-6{grid-column: span 6 / auto;}
+
 .span-col-3{grid-column: span 3 / auto;}
-
-.span-col-4{grid-column: span 4 / auto;}
-
-.span-col-2{grid-column: span 2 / auto;}
-
-.span-row-2{grid-row: span 2 / auto;}
 
 .span-row-3{grid-row: span 3 / auto;}
 
 body{
   font-family: 'Raleway', sans-serif;
+  background-image: url(images/background.png)
 }
 
 .logo{
   background-color: aqua;
-  padding: 2px;  
+  padding: 20px;  
+  height: 200px;
 }
+
+.span-col-5 h1{
+  text-align: center;
+  background-color: chartreuse;
+  background-size: cover;
+  height: 200px;
+ }
+
+ .span-col-6{
+   background-image: url(../images/background_image5.jpg);
+   background-repeat:repeat;
+   background-size: contain;
+ }
+ h1{
+  color: mediumvioletred;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+ }
+ .ul{
+   text-align: center;
+ }
+ .form{
+  background-color: darkseagreen;
+  }
+  .span-col-3 span-row-3{
+    background-color: darksalmon;
+  }
+ .footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+ }
