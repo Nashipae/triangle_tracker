@@ -33,9 +33,11 @@ function triangle(){
   }
   // Where no triangle is formed
   else{alert("Your lengths DON'T make a triangle!");
-  text="DON'T make a triangle!";}
+  text="DON'T make a triangle!";
+  document.getElementById("image").innerHTML = '<img src="images/not_a_triangle.png" alt="not_a_triangle." height="150" width="150">';
+}
   
   inputs.push([userInput1,userInput2,userInput3]);
   document.getElementById("form_output").innerHTML ="Your lengths "+inputs+" "+text; 
-  document.getElementById("image").innerHTML = '<img src="images/not_a_triangle.png" alt="not_a_triangle." height="150" width="150">';
+  
   }

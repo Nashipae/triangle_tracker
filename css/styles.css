@@ -20,7 +20,7 @@ body{
 }
 
 .logo{
-  grid-column: span 1 / auto; height: 200px; padding: 10px; margin: 0;
+  grid-column: span 1 / auto; height: 170px; padding: 10px; margin: 0;
   background-color: aqua;
   /* padding: 20px;   */
   /* height: 200px; */
@@ -33,14 +33,17 @@ body{
   text-align: center;
   background-color: chartreuse;
   background-size: cover;
-  height: 200px;
+  height: 170px;
+  float: center;
+  padding: 10px;
+  margin: 0;
  }
 
  .span-col-6{
    background-image: url(../images/background_image5.jpg);
    background-repeat:repeat;
    background-size: contain;
- }
+}
  h1{
   color: mediumvioletred;
   text-align: center;
@@ -64,7 +67,9 @@ body{
   }
   .span-col-6{
     background-color: chartreuse;
-  } 
+    float: center;
+    padding: 10px;
+    } 
 
  .span-col-6 .footer{
   background-color: black;
@@ -74,3 +79,6 @@ body{
  #image{
    align-items: center;
  }
+ #footer{
+   text-align: center;
+}
