@@ -28,6 +28,7 @@ else if((userInput1!==userInput2 && userInput2!==userInput3 && userInput1!==user
   text="form a scalene triangle.";
 }
 }
+// Where no triangle is formed
 else{alert("Your lengths DON'T make a triangle!");
 text="DON'T make a triangle!";}
 

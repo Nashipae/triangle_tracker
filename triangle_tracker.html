@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <head>
 <title>triangle tracker</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <script src="js/index.js"></script>
-  <h1> Triangle Tracker</h1>
-  <!-- <h2>How it works</h2> -->
-  <div class="info">
+    <div class="grid">
+    <div class="span-col-3"><h1> Triangle Tracker</h1>
+      </div>     
+      <!-- <h2>How it works</h2> -->
+    <div class="span-col-4 span-row-2">
     Welcome to the Triangle tracker! The triangle tracker is a tool that enables you to enter the lengths of your triangle sides and advices you whether the triangle:
     <ul>
       <li>is a triangle in the first place.</li>
       <li>is an equilateral, scalene or isosceles triangle.</li>
     </ul>
-    To find out, please input the sizes of your triangle side in the below form. 
-    <div class = "form">
+    <p>Before we get into the program lets learn a few uses of triangles. 
+      <h2>Uses of Triangles</h2>
+      <p>Triangles are used for:
+        <ul>
+          <li>Making a sort of “ding” sound.</li>
+          <li>Calculate stability</li>
+          <li>Architectural designs</li> 
+          <li>Cookery (e.g. making perfect samosas!)</li>       
+        </ul></p>
+      <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. </p>
+    </div>
+    <div class = "span-col-2 span-row-3">
       <p>
       <form name="triangle_inputs" method="get">
           <fieldset>
@@ -32,15 +46,11 @@
       <h3 id="form_output"></h3>
       </p>
     </div>
-    <div class="uses"></div>
-    <h2>Uses of Triangles</h2>
-    <p>Triangles are used for:
-      <ul>
-        <li>Making a sort of “ding” sound.</li>
-        <li>Calculate stability</li>
-        <li>Architectural designs</li>        
-      </ul>
+    <div class="span-col-2 span-row-3">
+      <h2>Output</h2>
+    </div>
     </p>
   </div>
+</div>
 </body>
 </html>
