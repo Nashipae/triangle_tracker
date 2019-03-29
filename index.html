@@ -7,7 +7,7 @@
 <body>
   <script src="js/index.js"></script>
   <div class="grid">
-    <div class="logo"><img src="images/triangle_logo.jpg" alt="logo" height="150" width="150">
+    <div class="logo"><img src="images/triangle_logo.jpg" alt="logo" height="150" width="150" >
     </div>
     <div class="span-col-5">
       <h1>Triangle Tracker</h1>
@@ -28,13 +28,13 @@
         <li>Cookery (e.g. making perfect samosas!)</li>
         </b>
       </ul>
-      <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. </p>
     </div>
     <div class = "span-col-3 span-row-3">
       <h2>Input</h2>
+      <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. Remember to check the results in the output section on the right. </p>
       <form name="triangle_inputs" method="get">
         <fieldset>
-          <legend>Triangle information:</legend>
+          <legend><b>Triangle information:</b></legend>
           Length 1 :<br>
           <input type="text" name="length1"><br>
           Length 2 :<br>
@@ -43,13 +43,18 @@
           <input type="text" name="length3"><br>
           <p><div class="submit"></p>
           <input type="button" value="Submit" onclick="triangle()">
+          <button onclick="document.getElementById('myInput').value = ''">Clear input field</button>
           </div>
         </fieldset>
       </form>    
     </div>
     <div class="output">
       <h2>Output</h2>
-      <h3 class="form_output"></h3>
+      <h3 id="form_output"></h3>
+      <h3 id="image"></h3>
+    </div>
+    <div class="span-col-6" id="footer">
+      <em text-align: center><strong> Copyright &#169 2019</strong></em>
     </div>
     <div class="footer"></div>
   </div>
