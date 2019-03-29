@@ -1,7 +1,9 @@
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  background image: url()
 }
 .span-col-3{grid-column: span 3 / auto;}
 
@@ -15,4 +17,9 @@
 
 body{
   font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  background-color: aqua;
+  padding: 2px;  
 }
