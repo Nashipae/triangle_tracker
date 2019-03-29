@@ -1,0 +1,1 @@
+The form output element is not supported in Edge 12 or Internet Explorer and earlier versions.
