@@ -1,5 +1,5 @@
 # Triangle Tracker
-#### Triangle Tracker that checks on type of triangles formed from different lengths., {29-Mar-2019}
+#### Triangle Tracker web application that checks on type of triangles formed from different lengths., {29-Mar-2019}
 #### By **Naomi Wariara**
 ## Description
 The triangle tracker is a web-based platform that helps users determine the kind of triangle they get using different lengths. Upon submitting their triangle lengths, the users are advised on the kind of triangle their measurements make. This assists the users make quick decisions in their design work.
