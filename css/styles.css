@@ -4,13 +4,15 @@
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
 }
-.span-col-5{grid-column: span 5 / auto;}
+.span-col-5{grid-column: span 5 / auto; height: 200px; padding: 0px; margin: 0;}
 
-.span-col-6{grid-column: span 6 / auto;}
+.span-col-6{grid-column: span 6 / auto; padding: 10px;}
 
 .span-col-3{grid-column: span 3 / auto;}
 
-.span-row-3{grid-row: span 3 / auto;}
+.span-row-3{grid-row: span 4 / auto;grid-column: span 3;
+background-color: rgb(114, 27, 51);
+padding: 20px;}
 
 body{
   font-family: 'Raleway', sans-serif;
@@ -18,11 +20,15 @@ body{
 }
 
 .logo{
+  grid-column: span 1 / auto; height: 200px; padding: 10px; margin: 0;
   background-color: aqua;
-  padding: 20px;  
-  height: 200px;
+  /* padding: 20px;   */
+  /* height: 200px; */
+  /* margin: 5px; */
 }
-
+.logo .img{
+  align-items: center
+}
 .span-col-5 h1{
   text-align: center;
   background-color: chartreuse;
@@ -50,7 +56,17 @@ body{
   .span-col-3{
     background-color: darksalmon;
   }
- .footer{
+  .output{
+    grid-row: span 4 / auto;grid-column: span 3;
+    background-color: rgb(114, 27, 51);
+    padding: 20px;
+    color:black;
+  }
+  .span-col-6{
+    background-color: chartreuse;
+  } 
+
+ .span-col-6 .footer{
   background-color: black;
   color: white;
   text-align: center;

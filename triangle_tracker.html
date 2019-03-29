@@ -7,7 +7,7 @@
 <body>
   <script src="js/index.js"></script>
   <div class="grid">
-    <div class="logo"><img src="images/triangle_logo.jpg" alt="logo" height="150" width="150">
+    <div class="logo"><img src="images/triangle_logo.jpg" alt="logo" height="150" width="150" >
     </div>
     <div class="span-col-5">
       <h1>Triangle Tracker</h1>
@@ -28,10 +28,10 @@
         <li>Cookery (e.g. making perfect samosas!)</li>
         </b>
       </ul>
-      <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. </p>
     </div>
     <div class = "span-col-3 span-row-3">
       <h2>Input</h2>
+      <p>To find out the kind of triangle formed by your measurements, please input the sizes of your triangle side in the below form. </p>
       <form name="triangle_inputs" method="get">
         <fieldset>
           <legend>Triangle information:</legend>
@@ -49,8 +49,9 @@
     </div>
     <div class="output">
       <h2>Output</h2>
-      <h3 class="form_output"></h3>
+      <h3 id="form_output"></h3>
     </div>
+    <div class="span-col-6" id="footer"></div>
     <div class="footer"></div>
   </div>
 </body>
