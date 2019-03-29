@@ -4,7 +4,7 @@
 ## Description
 The triangle tracker is a web-based platform that helps users determine the kind of triangle they get using different lengths. Upon submitting their triangle lengths, the users are advised on the kind of triangle their measurements make. This assists the users make quick decisions in their design work.
 ## Setup/Installation Requirements
-* To access the application use the link: 
+* To access the application use the link: https://nashipae.github.io/triangle_tracker/
 * For it to work, the user should key in the length1, length 2 and length3 parameters of the triangle in the form provided. Secondly, the user should click the 'Submit' button so as to get feedback on the kind of triangle formed from the lengths. 
 * To understand how the project works, the project behavior works as follows:
 * For equilateral triangle, all sides must be equal.
